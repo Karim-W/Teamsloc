@@ -1,0 +1,53 @@
+
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "id": "04733197-56e9-4a74-a02e-ce43fc6aa6ab",
+    "packageName": "com.cxunicorn.teams.location",
+    "developer": {
+        "name": "cxunicorn",
+        "websiteUrl": "https://www.cxunicorn.com",
+        "privacyUrl": "https://www.cxunicorn.com",
+        "termsOfUseUrl": "https://www.cxunicorn.com/teams"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Location test",
+        "full": ""
+    },
+    "description": {
+        "short": "dscm;lm sa;flamsd;fAM",
+        "full": ".NSDLASML;DASDASndf;a"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "loc",
+            "name": "Location",
+            "contentUrl": "https://localhost:3000",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "localhost:3000"
+    ],
+    "devicePermissions": [
+        "geolocation"
+    ]
+}
